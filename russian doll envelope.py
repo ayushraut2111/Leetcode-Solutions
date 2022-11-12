@@ -1,4 +1,5 @@
 # https://leetcode.com/problems/russian-doll-envelopes/
+# only 34 case passing
 class Solution:
     def maxEnvelopes(self, ev: list[list[int]]) -> int:
         ev.sort()
