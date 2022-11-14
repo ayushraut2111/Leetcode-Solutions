@@ -17,5 +17,5 @@ class Solution:
 
 s=Solution()
 nums=list(map(int,input().split()))
-print(s.threeSum(nums))
-        
+print(s.threeSum(nums)) 
+#not fully solved 
