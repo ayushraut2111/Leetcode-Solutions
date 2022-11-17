@@ -8,6 +8,7 @@ class Solution:
         s=strs[0]
         strs.pop(0)
         ans=[]
+
         d=""
         for i in range(len(s)):
             d+=s[i]
