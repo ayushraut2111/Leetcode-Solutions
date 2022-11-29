@@ -6,7 +6,7 @@
 
 # https://leetcode.com/problems/remove-nth-node-from-end-of-list
 class Solution:
-    def removeNthFromEnd(self, he, n: int):
+    def removeNthFromEnd(self, head, n: int):
         temp=head
         count=0
         while temp!=None:
