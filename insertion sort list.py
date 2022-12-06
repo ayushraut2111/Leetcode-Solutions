@@ -5,16 +5,15 @@ class ListNode:
         self.next = next
 
 class Solution:
+    def __init__(self):
+        self.xy=None
     def insertnode(self,i,ptr):
         t=ListNode(i)
-        if ptr==None:
-            ptr=t
-            return ptr
-        temp=ptr
-        while temp.next is not None:
-            temp=temp.next
-        temp.next=t
-        return ptr
+        if self.xy==None:
+            self.xy=t
+            return self.xy
+        ptr.next=t
+        return ptr.next
     def insertionSortList(self, head):
         temp=head
         a=[]
@@ -25,6 +24,4 @@ class Solution:
         a.sort()
         for i in a:
            ptr=self.insertnode(i,ptr)
-        return ptr
-
-
+        return self.xy
