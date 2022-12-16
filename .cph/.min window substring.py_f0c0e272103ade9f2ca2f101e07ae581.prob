@@ -1,0 +1,1 @@
+{"name":"Local: min window substring","url":"d:\\Leetcode-Solutions\\min window substring.py","tests":[{"id":1671217948071,"input":"ADOBECODEBANC\nABC","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Leetcode-Solutions\\min window substring.py","group":"local","local":true}
