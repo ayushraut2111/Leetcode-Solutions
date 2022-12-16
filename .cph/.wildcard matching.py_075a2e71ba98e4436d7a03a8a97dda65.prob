@@ -1,0 +1,1 @@
+{"name":"Local: wildcard matching","url":"d:\\Leetcode-Solutions\\wildcard matching.py","tests":[{"id":1671200188302,"input":"aabc?\n*abc*","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Leetcode-Solutions\\wildcard matching.py","group":"local","local":true}
