@@ -4,18 +4,19 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
+from collections import deque
 class Solution:
-    def findMode(self, root) -> list[int]:
+    def findMode(self, root):
         if root==None:
             return []
         if root.left==None and root.right==None:
             return [root.val]
         
-        queue=[]
+        queue=deque()
         dic={}
-        queue=[root]
+        queue.append(root)
         while len(queue)>0:
-            x=queue.pop(0)
+            x=queue.popleft()
             if x.val in dic:
                 dic[x.val]+=1
             else:
