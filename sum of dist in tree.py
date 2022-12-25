@@ -23,6 +23,7 @@ class Solution:
             # visited[i]=True
             dist[i][i]=0
             self.dij(i,visited[i],graph,dist[i])
+            self.dij(i,visited[i],graph,dist[i])
             ans.append(sum(dist[i]))
         return ans
             
