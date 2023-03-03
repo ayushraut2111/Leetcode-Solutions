@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/find-peak-element/
 class Solution:
     def findPeakElement(self, nums: list[int]) -> int:
         if len(nums)==1:
