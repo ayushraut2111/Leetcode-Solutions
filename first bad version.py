@@ -1,4 +1,4 @@
-
+# https://leetcode.com/problems/first-bad-version/
 class Solution:
     def firstBadVersion(self, n: int) -> int:
         def isBadVersion(x)->bool:
