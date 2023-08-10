@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/rotate-string/
+
 class Solution:
     def rotateString(self, b: str, a: str) -> bool:
         temp=a*2

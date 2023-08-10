@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/find-all-anagrams-in-a-string
 
 class Solution:
-    def findAnagrams(self, s: str, p: str)
+    def findAnagrams(self, s: str, p: str):
         if len(p)>len(s):
             return []
         dic={}
