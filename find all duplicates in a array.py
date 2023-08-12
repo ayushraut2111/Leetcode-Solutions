@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/find-all-duplicates-in-an-array
 class Solution:
-    def findDuplicates(self, nums: List[int]) -> List[int]:
+    def findDuplicates(self, nums: list[int]) -> list[int]:
         maxi=max(nums)
         visited=[0 for i in range(maxi+1)]
         ans=[]
